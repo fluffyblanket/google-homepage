@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+}
+img {
+    display: block;
+    margin: auto;
+}
+.heading {
+    display: inline;
+}
+input {
+    display: block;
+    width: 400px;
+    box-shadow: 0px 0px 5px 0px rgba(191,191,191,1);
+    border-style: none;
+    border-radius: 23px;
+    margin: auto;
+    padding: 15px 25px;
+    background-image: url("./images/icons_magnifying_glass.png"), url("./images/icons_search_bar.png");
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-origin: content-box;
+}
+button {
+    display: inline-block;
+    position: relative auto;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(244,244,244);
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(95,99,105); 
+}
+.knappar {
+    text-align: center;
+}
