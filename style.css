@@ -1,35 +1,54 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(110, 110, 110);
 }
 a:link {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: black;
+    font-size: 13px;
+    color: rgb(95,99,105);
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: black;
+    color: rgb(95,99,105);
 }
 img {
     display: block;
-    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 29px;
+    margin-left: auto; 
+    margin-right: auto;
 }
-.heading {
-    display: inline;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li {
+    float: right;
+}
+li a{
+    display: block;
+    text-align: right;
+    color: rgb(33,33,33);
+    padding: 15px 8px 0 5px;
+}
+li img{
+    margin: 0;
+    padding: 0 10px 0 0;
 }
 input {
     display: block;
-    width: 400px;
-    box-shadow: 0px 0px 5px 0px rgba(191,191,191,1);
+    width: 435px;
+    box-shadow: 0px 0px 4px 0px rgb(190, 190, 190);
     border-style: none;
     border-radius: 23px;
     margin: auto;
-    padding: 15px 25px;
+    padding: 17px 25px;
     background-image: url("./images/icons_magnifying_glass.png"), url("./images/icons_search_bar.png");
     background-repeat: no-repeat;
     background-position: left, right;
@@ -42,10 +61,39 @@ button {
     border-radius: 3px;
     background-color: rgb(244,244,244);
     padding: 10px 15px;
-    margin: 10px;
+    margin: 17px 7px;
     font-size: 14px;
     color: rgb(95,99,105); 
 }
 .knappar {
     text-align: center;
+}
+#sverige {
+    display: block;
+    line-height: 5px;
+    padding: 0 0 0 20px;
+    margin: 209px 0 0 0;
+    background-color: rgb(242,242,242);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(228,228,228);
+}
+#foten {
+    position: fixed;
+    bottom: 0; 
+    width: auto;
+    line-height: 0;
+    padding: 7px 20px 7px 20px;
+    background-color: rgb(242,242,242);
+    word-spacing: 20px;
+}
+.alignleft {
+    float:left;
+}
+.alignright {
+    float:right;
+}
+.meningen {
+    word-spacing: normal;
+    margin: 0 610px 0 0;
 }
